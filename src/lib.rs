@@ -111,7 +111,7 @@ impl Gauge {
         self.paint_center_mask(ui, rect, bg_color);
         self.paint_skirt_mask(ui, rect, bg_color);
         self.paint_end_caps(ui, rect, bg_color, arc_bg_color);
-        self.paint_value_circle(ui, rect);
+        //self.paint_value_circle(ui, rect);
         self.write_center_value(ui, rect, text_color);
         self.write_values_around_circle(ui, rect, text_color);
 
